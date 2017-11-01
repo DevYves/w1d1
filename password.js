@@ -21,7 +21,8 @@ function obfuscate(string){
 
 
 }
-console.log(obfuscate("aeol"));
+
+console.log(obfuscate(process.argv[2]));
 
 //  string[i;
 //     console.log(string[i] == 'a');
